@@ -1,38 +1,39 @@
 {
   "name": "fontstyler",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
+  "version": "1.0.0",
+  "keywords": [
+    "Google fonts",
+    "typography",
+    "styling"
+  ],
+  "author": "Amy Shackles",
+  "description": "Component to allow users to change the font of a webpage",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmyShackles/fontstyler.git"
+  },
+  "main": "dist/FontStyler.js",
+  "peerDependencies": {
     "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "react-dom": "^17.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "@material-ui/styles": "^4.11.3"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.3",
+    "identity-obj-proxy": "^3.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0"
   }
 }

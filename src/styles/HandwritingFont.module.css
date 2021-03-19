@@ -1,0 +1,903 @@
+@font-face {
+    font-family: "Aguafina Script";
+    src: url("../fonts/Handwriting/AguafinaScript-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Aladin";
+    src: url("../fonts/Handwriting/Aladin-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Alex Brush";
+    src: url("../fonts/Handwriting/AlexBrush-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Allura";
+    src: url("../fonts/Handwriting/Allura-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Amatic SC";
+    src: url("../fonts/Handwriting/AmaticSC-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Amita";
+    src: url("../fonts/Handwriting/Amita-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Annie Use Your Telescope";
+    src: url("../fonts/Handwriting/AnnieUseYourTelescope-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Architects Daughter";
+    src: url("../fonts/Handwriting/ArchitectsDaughter-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Arizonia";
+    src: url("../fonts/Handwriting/Arizonia-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Bad Script";
+    src: url("../fonts/Handwriting/BadScript-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Ballet";
+    src: url("../fonts/Handwriting/Ballet16pt-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Berkshire Swash";
+    src: url("../fonts/Handwriting/BerkshireSwash-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Beth Ellen";
+    src: url("../fonts/Handwriting/BethEllen-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Bilbo";
+    src: url("../fonts/Handwriting/Bilbo-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Bilbo Swash Caps";
+    src: url("../fonts/Handwriting/BilboSwashCaps-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Bonbon";
+    src: url("../fonts/Handwriting/Bonbon-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Butterfly Kids";
+    src: url("../fonts/Handwriting/ButterflyKids-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Calligraffitti";
+    src: url("../fonts/Handwriting/Calligraffitti-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Caveat";
+    src: url("../fonts/Handwriting/Caveat-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Caveat Brush";
+    src: url("../fonts/Handwriting/CaveatBrush-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Charm";
+    src: url("../fonts/Handwriting/Charm-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Charmonman";
+    src: url("../fonts/Handwriting/Charmonman-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Chilanka";
+    src: url("../fonts/Handwriting/Chilanka-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Clicker Script";
+    src: url("../fonts/Handwriting/ClickerScript-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Comic Neue";
+    src: url("../fonts/Handwriting/ComicNeue-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Coming Soon";
+    src: url("../fonts/Handwriting/ComingSoon-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Condiment";
+    src: url("../fonts/Handwriting/Condiment-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Cookie";
+    src: url("../fonts/Handwriting/Cookie-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Courgette";
+    src: url("../fonts/Handwriting/Courgette-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Crafty Girls";
+    src: url("../fonts/Handwriting/CraftyGirls-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Damion";
+    src: url("../fonts/Handwriting/Damion-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Dancing Script";
+    src: url("../fonts/Handwriting/DancingScript-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Dekko";
+    src: url("../fonts/Handwriting/Dekko-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Delius";
+    src: url("../fonts/Handwriting/Delius-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Delius Swash Caps";
+    src: url("../fonts/Handwriting/DeliusSwashCaps-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Delius Unicase";
+    src: url("../fonts/Handwriting/DeliusUnicase-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Devonshire";
+    src: url("../fonts/Handwriting/Devonshire-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Dokdo";
+    src: url("../fonts/Handwriting/Dokdo-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Dr Sugiyama";
+    src: url("../fonts/Handwriting/DrSugiyama-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Eagle Lake";
+    src: url("../fonts/Handwriting/EagleLake-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "East Sea Dokdo";
+    src: url("../fonts/Handwriting/EastSeaDokdo-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Engagement";
+    src: url("../fonts/Handwriting/Engagement-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Euphoria Script";
+    src: url("../fonts/Handwriting/EuphoriaScript-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Felipa";
+    src: url("../fonts/Handwriting/Felipa-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Fondamento";
+    src: url("../fonts/Handwriting/Fondamento-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Gaegu";
+    src: url("../fonts/Handwriting/Gaegu-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Gamja Flower";
+    src: url("../fonts/Handwriting/GamjaFlower-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Gochi Hand";
+    src: url("../fonts/Handwriting/GochiHand-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Grand Hotel";
+    src: url("../fonts/Handwriting/GrandHotel-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Hachi Maru Pop";
+    src: url("../fonts/Handwriting/HachiMaruPop-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Handlee";
+    src: url("../fonts/Handwriting/Handlee-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Herr Von Muellerhoff";
+    src: url("../fonts/Handwriting/HerrVonMuellerhoff-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Hi Melody";
+    src: url("../fonts/Handwriting/HiMelody-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "HomemadeApple";
+    src: url("../fonts/Handwriting/HomemadeApple-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Indie Flower";
+    src: url("../fonts/Handwriting/IndieFlower-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Italianno";
+    src: url("../fonts/Handwriting/Italianno-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Itim";
+    src: url("../fonts/Handwriting/Itim-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Jim Nightshade";
+    src: url("../fonts/Handwriting/JimNightshade-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Julee";
+    src: url("../fonts/Handwriting/Julee-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Just Another Hand";
+    src: url("../fonts/Handwriting/JustAnotherHand-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Kalam";
+    src: url("../fonts/Handwriting/Kalam-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Kaushan Script";
+    src: url("../fonts/Handwriting/KaushanScript-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Kavivanar";
+    src: url("../fonts/Handwriting/Kavivanar-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Kristi";
+    src: url("../fonts/Handwriting/Kristi-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Lakki Reddy";
+    src: url("../fonts/Handwriting/LakkiReddy-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "League Script";
+    src: url("../fonts/Handwriting/LeagueScript-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Leckerli One";
+    src: url("../fonts/Handwriting/LeckerliOne-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Liu Jian Mao Cao";
+    src: url("../fonts/Handwriting/LiuJianMaoCao-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Long Cang";
+    src: url("../fonts/Handwriting/LongCang-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Lovers Quarrel";
+    src: url("../fonts/Handwriting/LoversQuarrel-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Ma Shan Zheng";
+    src: url("../fonts/Handwriting/MaShanZheng-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Mali";
+    src: url("../fonts/Handwriting/Mali-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Mansalva";
+    src: url("../fonts/Handwriting/Mansalva-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Marck Script";
+    src: url("../fonts/Handwriting/MarckScript-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Meie Script";
+    src: url("../fonts/Handwriting/MeieScript-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Merienda";
+    src: url("../fonts/Handwriting/Merienda-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Merienda One";
+    src: url("../fonts/Handwriting/MeriendaOne-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Miss Fajardose";
+    src: url("../fonts/Handwriting/MissFajardose-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Molle";
+    src: url("../fonts/Handwriting/Molle-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Monsieur La Doulaise";
+    src: url("../fonts/Handwriting/MonsieurLaDoulaise-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Montez";
+    src: url("../fonts/Handwriting/Montez-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Mr Bedfort";
+    src: url("../fonts/Handwriting/MrBedfort-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Mr Dafoe";
+    src: url("../fonts/Handwriting/MrDafoe-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Mr De Haviland";
+    src: url("../fonts/Handwriting/MrDeHaviland-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Mrs Saint Delafield";
+    src: url("../fonts/Handwriting/MrsSaintDelafield-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Mrs Sheppards";
+    src: url("../fonts/Handwriting/MrsSheppards-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Nanum Brush Script";
+    src: url("../fonts/Handwriting/NanumBrushScript-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Nanum Pen Script";
+    src: url("../fonts/Handwriting/NanumPenScript-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Nerko One";
+    src: url("../fonts/Handwriting/NerkoOne-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Niconne";
+    src: url("../fonts/Handwriting/Niconne-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Norican";
+    src: url("../fonts/Handwriting/Norican-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Pacifico";
+    src: url("../fonts/Handwriting/Pacifico-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Pangolin";
+    src: url("../fonts/Handwriting/Pangolin-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Parisienne";
+    src: url("../fonts/Handwriting/Parisienne-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Patrick Hand";
+    src: url("../fonts/Handwriting/PatrickHand-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Patrick Hand SC";
+    src: url("../fonts/Handwriting/PatrickHandSC-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Permanent Marker";
+    src: url("../fonts/Handwriting/PermanentMarker-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Petit Formal Script";
+    src: url("../fonts/Handwriting/PetitFormalScript-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Pinyon Script";
+    src: url("../fonts/Handwriting/PinyonScript-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Princess Sofia";
+    src: url("../fonts/Handwriting/PrincessSofia-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Quintessential";
+    src: url("../fonts/Handwriting/Quintessential-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Qwigley";
+    src: url("../fonts/Handwriting/Qwigley-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Rancho";
+    src: url("../fonts/Handwriting/Rancho-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Redressed";
+    src: url("../fonts/Handwriting/Redressed-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Rochester";
+    src: url("../fonts/Handwriting/Rochester-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Rock Salt";
+    src: url("../fonts/Handwriting/RockSalt-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Romanesco";
+    src: url("../fonts/Handwriting/Romanesco-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Rouge Script";
+    src: url("../fonts/Handwriting/RougeScript-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Ruge Boogie";
+    src: url("../fonts/Handwriting/RugeBoogie-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Ruthie";
+    src: url("../fonts/Handwriting/Ruthie-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Sacramento";
+    src: url("../fonts/Handwriting/Sacramento-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Satisfy";
+    src: url("../fonts/Handwriting/Satisfy-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Schoolbell";
+    src: url("../fonts/Handwriting/Schoolbell-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Sedgwick Ave";
+    src: url("../fonts/Handwriting/SedgwickAve-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Sedgwick Ave Display";
+    src: url("../fonts/Handwriting/SedgwickAveDisplay-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Shadows Into Light Two";
+    src: url("../fonts/Handwriting/ShadowsIntoLightTwo-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Short Stack";
+    src: url("../fonts/Handwriting/ShortStack-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Sofia";
+    src: url("../fonts/Handwriting/Sofia-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Sriracha";
+    src: url("../fonts/Handwriting/Sriracha-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Stalemate";
+    src: url("../fonts/Handwriting/Stalemate-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Sue Ellen Francisco";
+    src: url("../fonts/Handwriting/SueEllenFrancisco-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Sunshiney";
+    src: url("../fonts/Handwriting/Sunshiney-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Tangerine";
+    src: url("../fonts/Handwriting/Tangerine-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Tillana";
+    src: url("../fonts/Handwriting/Tillana-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Vibur";
+    src: url("../fonts/Handwriting/Vibur-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Walter Turncoat";
+    src: url("../fonts/Handwriting/WalterTurncoat-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Yellowtail";
+    src: url("../fonts/Handwriting/Yellowtail-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Yesteryear";
+    src: url("../fonts/Handwriting/Yesteryear-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Zhi Mang Xing";
+    src: url("../fonts/Handwriting/ZhiMangXing-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }

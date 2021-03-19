@@ -1,0 +1,1242 @@
+@font-face {
+    font-family: "Abhaya Libre";
+    src: url("../fonts/Serif/AbhayaLibre-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Adamina";
+    src: url("../fonts/Serif/Adamina-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Alegreya SC";
+    src: url("../fonts/Serif/AlegreyaSC-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Aleo";
+    src: url("../fonts/Serif/Aleo-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Alice";
+    src: url("../fonts/Serif/Alice-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Alike";
+    src: url("../fonts/Serif/Alike-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Alike Angular";
+    src: url("../fonts/Serif/AlikeAngular-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Almendra";
+    src: url("../fonts/Serif/Almendra-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Almendra SC";
+    src: url("../fonts/Serif/AlmendraSC-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Amethysta";
+    src: url("../fonts/Serif/Amethysta-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Amiri";
+    src: url("../fonts/Serif/Amiri-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Andada";
+    src: url("../fonts/Serif/Andada-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Antic Didone";
+    src: url("../fonts/Serif/AnticDidone-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Antic Slab";
+    src: url("../fonts/Serif/AnticSlab-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Arapey";
+    src: url("../fonts/Serif/Arapey-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Arbutus Slab";
+    src: url("../fonts/Serif/ArbutusSlab-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Aref Ruqaa";
+    src: url("../fonts/Serif/ArefRuqaa-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Artifika";
+    src: url("../fonts/Serif/Artifika-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Arvo";
+    src: url("../fonts/Serif/Arvo-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Asar";
+    src: url("../fonts/Serif/Asar-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Average";
+    src: url("../fonts/Serif/Average-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Balthazar";
+    src: url("../fonts/Serif/Balthazar-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Baskervville";
+    src: url("../fonts/Serif/Baskervville-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Belgrano";
+    src: url("../fonts/Serif/Belgrano-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Bellefair";
+    src: url("../fonts/Serif/Bellefair-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Benne";
+    src: url("../fonts/Serif/Benne-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  /* @font-face {
+    font-family: "Benthem";
+    src: url("../fonts/Serif/Benthem-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  } */
+  @font-face {
+    font-family: "BioRhyme";
+    src: url("../fonts/Serif/BioRhyme-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "BioRhyme Expanded";
+    src: url("../fonts/Serif/BioRhymeExpanded-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Bitter";
+    src: url("../fonts/Serif/Bitter-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Brawler";
+    src: url("../fonts/Serif/Brawler-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Bree Serif";
+    src: url("../fonts/Serif/BreeSerif-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Buenard";
+    src: url("../fonts/Serif/Buenard-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Caladea";
+    src: url("../fonts/Serif/Caladea-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Cambo";
+    src: url("../fonts/Serif/Cambo-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Cantata One";
+    src: url("../fonts/Serif/CantataOne-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Cardo";
+    src: url("../fonts/Serif/Cardo-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Castoro";
+    src: url("../fonts/Serif/Castoro-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Caudex";
+    src: url("../fonts/Serif/Caudex-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Cinzel";
+    src: url("../fonts/Serif/Cinzel-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Copse";
+    src: url("../fonts/Serif/Copse-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Cormorant";
+    src: url("../fonts/Serif/Cormorant-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Cormorant Garamond";
+    src: url("../fonts/Serif/CormorantGaramond-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Cormorant Infant";
+    src: url("../fonts/Serif/CormorantInfant-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Cormorant SC";
+    src: url("../fonts/Serif/CormorantSC-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Cormorant Unicase";
+    src: url("../fonts/Serif/CormorantUnicase-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Cormorant Upright";
+    src: url("../fonts/Serif/CormorantUpright-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Coustard";
+    src: url("../fonts/Serif/Coustard-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Crete Round";
+    src: url("../fonts/Serif/CreteRound-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  
+  @font-face {
+    font-family: "Crimson Text";
+    src: url("../fonts/Serif/CrimsonText-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Cutive";
+    src: url("../fonts/Serif/Cutive-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Della Respira";
+    src: url("../fonts/Serif/DellaRespira-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "DM Serif Display";
+    src: url("../fonts/Serif/DMSerifDisplay-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "DM Serif Text";
+    src: url("../fonts/Serif/DMSerifText-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Domine";
+    src: url("../fonts/Serif/Domine-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Donegal One";
+    src: url("../fonts/Serif/DonegalOne-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "EB Garamond";
+    src: url("../fonts/Serif/EBGaramond-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Eczar";
+    src: url("../fonts/Serif/Eczar-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Enriqueta";
+    src: url("../fonts/Serif/Enriqueta-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Esteban";
+    src: url("../fonts/Serif/Esteban-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Fanwood Text";
+    src: url("../fonts/Serif/FanwoodText-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Fauna One";
+    src: url("../fonts/Serif/FaunaOne-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Faustina";
+    src: url("../fonts/Serif/Faustina-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Fenix";
+    src: url("../fonts/Serif/Fenix-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Fjord One";
+    src: url("../fonts/Serif/FjordOne-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Frank Ruhl Libre";
+    src: url("../fonts/Serif/FrankRuhlLibre-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Gabriela";
+    src: url("../fonts/Serif/Gabriela-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Gelasio";
+    src: url("../fonts/Serif/Gelasio-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Gilda Display";
+    src: url("../fonts/Serif/GildaDisplay-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Glegoo";
+    src: url("../fonts/Serif/Glegoo-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Grenze";
+    src: url("../fonts/Serif/Grenze-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Gupter";
+    src: url("../fonts/Serif/Gupter-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Gurajada";
+    src: url("../fonts/Serif/Gurajada-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Habibi";
+    src: url("../fonts/Serif/Habibi-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Halant";
+    src: url("../fonts/Serif/Halant-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Headland One";
+    src: url("../fonts/Serif/HeadlandOne-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Ibarra Real Nova";
+    src: url("../fonts/Serif/IbarraRealNova-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "IBM Plex Serif";
+    src: url("../fonts/Serif/IBMPlexSerif-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Inika";
+    src: url("../fonts/Serif/Inika-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Inknut Antiqua";
+    src: url("../fonts/Serif/InknutAntiqua-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Inria Serif";
+    src: url("../fonts/Serif/InriaSerif-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Italiana";
+    src: url("../fonts/Serif/Italiana-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Jacques Francois";
+    src: url("../fonts/Serif/JacquesFrancois-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Jomolhari";
+    src: url("../fonts/Serif/Jomolhari-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Josefin Slab";
+    src: url("../fonts/Serif/JosefinSlab-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Judson";
+    src: url("../fonts/Serif/Judson-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Junge";
+    src: url("../fonts/Serif/Junge-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Kadwa";
+    src: url("../fonts/Serif/Kadwa-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Kameron";
+    src: url("../fonts/Serif/Kameron-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Karma";
+    src: url("../fonts/Serif/Karma-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Kotta One";
+    src: url("../fonts/Serif/KottaOne-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Kreon";
+    src: url("../fonts/Serif/Kreon-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Kurale";
+    src: url("../fonts/Serif/Kurale-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Ledger";
+    src: url("../fonts/Serif/Ledger-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Libre Baskerville";
+    src: url("../fonts/Serif/LibreBaskerville-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Libre Caslon Display";
+    src: url("../fonts/Serif/LibreCaslonDisplay-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Libre Caslon Text";
+    src: url("../fonts/Serif/LibreCaslonText-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Linden Hill";
+    src: url("../fonts/Serif/LindenHill-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Lora";
+    src: url("../fonts/Serif/Lora-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Lusitana";
+    src: url("../fonts/Serif/Lusitana-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Lustria";
+    src: url("../fonts/Serif/Lustria-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Maitree";
+    src: url("../fonts/Serif/Maitree-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Manuale";
+    src: url("../fonts/Serif/Manuale-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Marcellus";
+    src: url("../fonts/Serif/Marcellus-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Marcellus SC";
+    src: url("../fonts/Serif/MarcellusSC-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  
+  @font-face {
+    font-family: "Marko One";
+    src: url("../fonts/Serif/MarkoOne-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Martel";
+    src: url("../fonts/Serif/Martel-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Mate";
+    src: url("../fonts/Serif/Mate-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Mate SC";
+    src: url("../fonts/Serif/MateSC-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Merriweather";
+    src: url("../fonts/Serif/Merriweather-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Montaga";
+    src: url("../fonts/Serif/Montaga-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Nanum Myeongjo";
+    src: url("../fonts/Serif/NanumMyeongjo-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Neuton";
+    src: url("../fonts/Serif/Neuton-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Noticia Text";
+    src: url("../fonts/Serif/NoticiaText-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Noto Serif";
+    src: url("../fonts/Serif/NotoSerif-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Oranienbaum";
+    src: url("../fonts/Serif/Oranienbaum-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Ovo";
+    src: url("../fonts/Serif/Ovo-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Peddana";
+    src: url("../fonts/Serif/Peddana-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Petrona";
+    src: url("../fonts/Serif/Petrona-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Piazzolla";
+    src: url("../fonts/Serif/Piazzolla-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/Serif/PlayfairDisplay-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Playfair Display SC";
+    src: url("../fonts/Serif/PlayfairDisplaySC-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Podkova";
+    src: url("../fonts/Serif/Podkova-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Poly";
+    src: url("../fonts/Serif/Poly-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Prata";
+    src: url("../fonts/Serif/Prata-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Pridi";
+    src: url("../fonts/Serif/Pridi-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Prociono";
+    src: url("../fonts/Serif/Prociono-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "PT Serif";
+    src: url("../fonts/Serif/PT_Serif-Web-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "PT Serif Caption";
+    src: url("../fonts/Serif/PT_Serif-Caption-Web-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Quando";
+    src: url("../fonts/Serif/Quando-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Quattrocento";
+    src: url("../fonts/Serif/Quattrocento-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Radley";
+    src: url("../fonts/Serif/Radley-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Ramaraja";
+    src: url("../fonts/Serif/Ramaraja-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Rasa";
+    src: url("../fonts/Serif/Rasa-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Rhodium Libre";
+    src: url("../fonts/Serif/RhodiumLibre-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Roboto Slab";
+    src: url("../fonts/Serif/RobotoSlab-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Rokkitt";
+    src: url("../fonts/Serif/Rokkitt-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Rosarivo";
+    src: url("../fonts/Serif/Rosarivo-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Rozha One";
+    src: url("../fonts/Serif/RozhaOne-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Sahitya";
+    src: url("../fonts/Serif/Sahitya-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Rufina";
+    src: url("../fonts/Serif/Rufina-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Sanchez";
+    src: url("../fonts/Serif/Sanchez-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Scheherazade";
+    src: url("../fonts/Serif/Scheherazade-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Scope One";
+    src: url("../fonts/Serif/ScopeOne-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Shippori Mincho";
+    src: url("../fonts/Serif/ShipporiMincho-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Shippori Mincho B1";
+    src: url("../fonts/Serif/ShipporiMinchoB1-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Slabo 13px";
+    src: url("../fonts/Serif/Slabo13px-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Slabo 27px";
+    src: url("../fonts/Serif/Slabo27px-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Solway";
+    src: url("../fonts/Serif/Solway-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Song Myung";
+    src: url("../fonts/Serif/SongMyung-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Sorts Mill Goudy";
+    src: url("../fonts/Serif/SortsMillGoudy-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Source Serif Pro";
+    src: url("../fonts/Serif/SourceSerifPro-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Spectral";
+    src: url("../fonts/Serif/Spectral-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Spectral SC";
+    src: url("../fonts/Serif/SpectralSC-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Sree Krushnadevaraya";
+    src: url("../fonts/Serif/SreeKrushnadevaraya-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Stoke";
+    src: url("../fonts/Serif/Stoke-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Suez One";
+    src: url("../fonts/Serif/SuezOne-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Sumana";
+    src: url("../fonts/Serif/Sumana-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Sura";
+    src: url("../fonts/Serif/Sura-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Suranna";
+    src: url("../fonts/Serif/Suranna-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Suravaram";
+    src: url("../fonts/Serif/Suravaram-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Taviraj";
+    src: url("../fonts/Serif/Taviraj-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Texturina";
+    src: url("../fonts/Serif/Texturina-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Tienne";
+    src: url("../fonts/Serif/Tienne-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Tinos";
+    src: url("../fonts/Serif/Tinos-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Trirong";
+    src: url("../fonts/Serif/Trirong-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Trocchi";
+    src: url("../fonts/Serif/Trocchi-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Trykker";
+    src: url("../fonts/Serif/Trykker-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Ultra";
+    src: url("../fonts/Serif/Ultra-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Unna";
+    src: url("../fonts/Serif/Unna-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Vesper Libre";
+    src: url("../fonts/Serif/VesperLibre-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Vidaloka";
+    src: url("../fonts/Serif/Vidaloka-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Volkhov";
+    src: url("../fonts/Serif/Volkhov-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Vollkorn SC";
+    src: url("../fonts/Serif/VollkornSC-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Yrsa";
+    src: url("../fonts/Serif/Yrsa-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "ZCOOL XiaoWei";
+    src: url("../fonts/Serif/ZCOOLXiaoWei-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Zilla Slab";
+    src: url("../fonts/Serif/ZillaSlab-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  

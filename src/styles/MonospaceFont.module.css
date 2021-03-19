@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url("../fonts/Monospace/AnonymousPro-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "B612 Mono";
+    src: url("../fonts/Monospace/B612Mono-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Courier Prime";
+    src: url("../fonts/Monospace/CourierPrime-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Cousine";
+    src: url("../fonts/Monospace/Cousine-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Cutive Mono";
+    src: url("../fonts/Monospace/CutiveMono-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "DM Mono";
+    src: url("../fonts/Monospace/DMMono-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Fira Code";
+    src: url("../fonts/Monospace/FiraCode-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Fira Mono";
+    src: url("../fonts/Monospace/FiraMono-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "IBM Plex Mono";
+    src: url("../fonts/Monospace/IBMPlexMono-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Inconsolata";
+    src: url("../fonts/Monospace/Inconsolata-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "JetBrains Mono";
+    src: url("../fonts/Monospace/JetBrainsMono-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Major Mono Display";
+    src: url("../fonts/Monospace/MajorMonoDisplay-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Nanum Gothic Coding";
+    src: url("../fonts/Monospace/NanumGothicCoding-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Overpass Mono";
+    src: url("../fonts/Monospace/OverpassMono-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Oxygen Mono";
+    src: url("../fonts/Monospace/OxygenMono-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Roboto Mono";
+    src: url("../fonts/Monospace/RobotoMono-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Share Tech Mono";
+    src: url("../fonts/Monospace/ShareTechMono-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Source Code Pro";
+    src: url("../fonts/Monospace/SourceCodePro-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Space Mono";
+    src: url("../fonts/Monospace/SpaceMono-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Syne Mono";
+    src: url("../fonts/Monospace/SyneMono-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "VT323";
+    src: url("../fonts/Monospace/VT323-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Xanh Mono";
+    src: url("../fonts/Monospace/XanhMono-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+  }
