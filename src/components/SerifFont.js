@@ -1,5 +1,6 @@
 import React from "react";
 import { serif } from "../utils/fonts.js";
+import "../styles/SerifFont.module.css";
 
 export const SerifFont = ({ selectFontFamily, fontFamily, type }) => {
     const handleChange = (e) => {

@@ -1,5 +1,6 @@
 import React from "react";
 import { display } from "../utils/fonts.js";
+import "../styles/DisplayFont.module.css";
 
 export const DisplayFont = ({ selectFontFamily, fontFamily, type }) => {
     const handleChange = (e) => {

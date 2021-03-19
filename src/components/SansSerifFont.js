@@ -1,5 +1,6 @@
 import React from "react";
 import { sansSerif } from "../utils/fonts.js";
+import "../styles/SansSerifFont.module.css";
 
 export const SansSerifFont = ({ selectFontFamily, fontFamily, type }) => {
     const handleChange = (e) => {

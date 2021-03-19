@@ -1492,7 +1492,7 @@
   }
   @font-face {
     font-family: "Public Sans";
-    src: url("../fonts/SansSerifSans-Regular.woff2");
+    src: url("../fonts/SansSerif/PublicSans-Regular.woff2");
     font-style: normal;
     font-weight: 400;
     font-display: fallback;

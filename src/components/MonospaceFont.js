@@ -1,5 +1,6 @@
 import React from "react";
 import { monospace } from "../utils/fonts.js";
+import "../styles/MonospaceFont.module.css";
 
 export const MonospaceFont = ({ selectFontFamily, fontFamily, type }) => {
     const handleChange = (e) => {
