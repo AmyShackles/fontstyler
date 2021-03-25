@@ -9,7 +9,8 @@ export const FontFamilyPicker = ({
     selectFontFamily,
     fontType,
     fontFamily,
-    type,
+    tagType,
+    area,
 }) => {
     switch (fontType) {
         case "Display":
@@ -18,7 +19,8 @@ export const FontFamilyPicker = ({
                     <DisplayFont
                         selectFontFamily={selectFontFamily}
                         fontFamily={fontFamily}
-                        type={type}
+                        type={tagType}
+                        area={area}
                     />
                 </div>
             );
@@ -28,7 +30,8 @@ export const FontFamilyPicker = ({
                     <HandwritingFont
                         selectFontFamily={selectFontFamily}
                         fontFamily={fontFamily}
-                        type={type}
+                        type={tagType}
+                        area={area}
                     />
                 </div>
             );
@@ -38,7 +41,8 @@ export const FontFamilyPicker = ({
                     <MonospaceFont
                         selectFontFamily={selectFontFamily}
                         fontFamily={fontFamily}
-                        type={type}
+                        type={tagType}
+                        area={area}
                     />
                 </div>
             );
@@ -48,7 +52,8 @@ export const FontFamilyPicker = ({
                     <SerifFont
                         selectFontFamily={selectFontFamily}
                         fontFamily={fontFamily}
-                        type={type}
+                        type={tagType}
+                        area={area}
                     />
                 </div>
             );
@@ -58,7 +63,8 @@ export const FontFamilyPicker = ({
                     <SansSerifFont
                         selectFontFamily={selectFontFamily}
                         fontFamily={fontFamily}
-                        type={type}
+                        type={tagType}
+                        area={area}
                     />
                 </div>
             );

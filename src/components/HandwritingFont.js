@@ -2,10 +2,15 @@ import React from "react";
 import { handwriting } from "../utils/fonts.js";
 import "../styles/HandwritingFont.module.css";
 
-export const HandwritingFont = ({ selectFontFamily, fontFamily, type }) => {
+export const HandwritingFont = ({
+    selectFontFamily,
+    fontFamily,
+    type,
+    area,
+}) => {
     const handleChange = (e) => {
         selectFontFamily(e.target.value);
-        localStorage.setItem(`${type}-fontFamily`, e.target.value);
+        localStorage.setItem(`${type}-${area}-fontFamily`, e.target.value);
     };
 
     return (

@@ -1,3 +1,4 @@
+import { Drawer } from "./components/Drawer.js";
 import { FontStyler } from "./components/FontStyler.js";
 
-export { FontStyler };
+export { Drawer, FontStyler };
