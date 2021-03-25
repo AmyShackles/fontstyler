@@ -105,7 +105,9 @@ export const Drawer = ({ drawerColor = "rebeccapurple", children }) => {
                             X
                         </button>
                     </div>
+                    <div className={classes.drawer}>
                     {validChildren}
+                    </div>
                 </div>
             ) : (
                 <button onClick={() => setOpenDrawer(!openDrawer)}>
