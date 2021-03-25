@@ -121,7 +121,7 @@ export const Drawer = ({
                             styles={closeDrawerStyles}
                         />
                     </div>
-                    <div className={classes.drawer}>{validChildren}</div>
+                    <div>{validChildren}</div>
                 </div>
             ) : (
                 <OpenDrawer
