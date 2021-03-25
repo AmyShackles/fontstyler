@@ -1,7 +1,9 @@
 import React from "react";
 import { makeStyles } from "@material-ui/styles";
-import { findBackgroundColor, isOutlineRequired } from "../utils/colors.js";
+import { isOutlineRequired } from "../utils/colors.js";
 import { acceptableTags } from "../utils/tags.js";
+import { OpenDrawer } from "./OpenDrawer.js";
+import { CloseDrawer } from "./CloseDrawer.js";
 
 const useStyles = makeStyles({
     drawer: (props) => ({
@@ -19,10 +21,18 @@ const useStyles = makeStyles({
             backgroundColor: props.drawerColor ? props.drawerColor : "white",
             border: "none",
         },
+        ...props.closeDrawerStyles,
     }),
 });
 
-export const Drawer = ({ drawerColor = "rebeccapurple", children }) => {
+export const Drawer = ({
+    drawerColor = "rebeccapurple",
+    openDrawerText = "Choose your styles",
+    openDrawerStyles = {},
+    closeDrawerText = "X",
+    closeDrawerStyles = {},
+    children,
+}) => {
     const validChildren = children
         .filter(({ props }) => acceptableTags.includes(props.tagType))
         .map((child) => {
@@ -31,7 +41,12 @@ export const Drawer = ({ drawerColor = "rebeccapurple", children }) => {
 
     const childProps = validChildren.map((child) => child.props);
     const [openDrawer, setOpenDrawer] = React.useState(false);
-    const props = { openDrawer, drawerColor };
+    const props = {
+        openDrawer,
+        drawerColor,
+        openDrawerStyles,
+        closeDrawerStyles,
+    };
     const classes = useStyles(props);
     React.useEffect(() => {
         childProps.forEach(({ tagType, area }) => {
@@ -98,21 +113,23 @@ export const Drawer = ({ drawerColor = "rebeccapurple", children }) => {
             {openDrawer ? (
                 <div className={classes.drawer}>
                     <div className={classes.close}>
-                        <button
+                        <CloseDrawer
                             title="Close"
-                            onClick={() => setOpenDrawer(!openDrawer)}
-                        >
-                            X
-                        </button>
+                            openDrawer={openDrawer}
+                            setOpenDrawer={setOpenDrawer}
+                            buttonText={closeDrawerText}
+                            styles={closeDrawerStyles}
+                        />
                     </div>
-                    <div className={classes.drawer}>
-                    {validChildren}
-                    </div>
+                    <div className={classes.drawer}>{validChildren}</div>
                 </div>
             ) : (
-                <button onClick={() => setOpenDrawer(!openDrawer)}>
-                    Choose Your Styles
-                </button>
+                <OpenDrawer
+                    openDrawer={openDrawer}
+                    setOpenDrawer={setOpenDrawer}
+                    buttonText={openDrawerText}
+                    styles={openDrawerStyles}
+                />
             )}
             <h1>H1 example</h1>
             <h2>H2 example</h2>
